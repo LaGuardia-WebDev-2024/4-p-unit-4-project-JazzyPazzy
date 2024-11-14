@@ -25,8 +25,7 @@ Select ONE Additional Feature to Add
       href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Sofia&display=swap"
       rel="stylesheet"
     />
-  </head>
-  <body>
+
     <style>
       body {
         background-image: url(https://cdn.glitch.global/46898ef9-fe3a-4f3b-9e7d-5053079539eb/3e7e257b-5f70-4929-879f-d2e08809f3b4.image.jpeg?v=1731360914258);
@@ -36,9 +35,8 @@ Select ONE Additional Feature to Add
         margin: auto;
       }
 
-      h1 {
-        color: rgb(198, 136, 236);
-      }
+    
+      
 
       #title {
         background-color: white;
@@ -54,6 +52,8 @@ Select ONE Additional Feature to Add
       }
       .categories {
         background-color: rgb(230, 213, 242);
+        width: 200px;
+        height:29px;
       }
       .animals {
         background-color: rgb(250, 243, 243);
@@ -70,16 +70,19 @@ Select ONE Additional Feature to Add
 
       h1 {
         font-family: "Charm", cursive;
-      }
-
-      h1 {
-        font-size: 45px;
-      }
+        color: rgb(198, 136, 236);
+        font-size: 45px;  }
+      #first-word{color: gold}
+      #song-chart {background :rgb(226, 206, 240);
     </style>
+  </head>
+  <body>
     <a href="#hob">Hobbies</a>
     <a href="#fav">Favorite Things</a>
     <center>
-      <h1>✨<u id="title">All About Jazz</u>✨</h1>
+      <h1>
+        ✨<u id="title"><span id="first-word">All </span>About Jazz</u>✨
+      </h1>
     </center>
     <h2 class="categories" id="hob">Hobbies:</h2>
     <ul>
@@ -151,40 +154,41 @@ Select ONE Additional Feature to Add
     <ul>
       <li id="an-head-two"><strong>Favorite Songs:</strong></li>
     </ul>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Song name</th>
-          <th>Artist</th>
-          <th>Favorite lyric</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Dont fear the reaper</td>
-          <td>Blue oyster cult</td>
-          <td>
-            "seasons dont fear the reaper,nor do the wind,the sun or the sky"
-          </td>
-        </tr>
-        <tr>
-          <td>Static</td>
-          <td>Steve Lacy</td>
-          <td>
-            "cause im longing for something secure,if you had to stunt your
-            shining for your lover"
-          </td>
-        </tr>
-        <tr>
-          <td>So my darling</td>
-          <td>Rachel Chinouriri</td>
-          <td>
-            "and my heart beats stuck in a daze over our thoughts, and watching
-            me grow to be new "
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div id="song-chart">
+      <table>
+        <thead>
+          <tr>
+            <th>Song name</th>
+            <th>Artist</th>
+            <th>Favorite lyric</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dont fear the reaper</td>
+            <td>Blue oyster cult</td>
+            <td>
+              "seasons dont fear the reaper,nor do the wind,the sun or the sky"
+            </td>
+          </tr>
+          <tr>
+            <td>Static</td>
+            <td>Steve Lacy</td>
+            <td>
+              "cause im longing for something secure,if you had to stunt your
+              shining for your lover"
+            </td>
+          </tr>
+          <tr>
+            <td>So my darling</td>
+            <td>Rachel Chinouriri</td>
+            <td>
+              "and my heart beats stuck in a daze over our thoughts, and
+              watching me grow to be new "
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
